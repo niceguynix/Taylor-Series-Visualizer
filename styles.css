@@ -1,0 +1,62 @@
+.center{
+    display: flex;
+    align-items: center;
+}
+
+#head{
+    flex-grow: 1;
+    text-align: center;
+}
+
+#input-wrap,#button-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+#func_input,#no_of_terms,#s{
+    margin-left : 25px;
+    margin-top : 25px;
+    min-width: 20%;
+}
+
+#result{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+#o-wrap,#t-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    margin: 10px 10px 10px 10px;
+}
+
+#graph{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    margin-top: 20px;
+}
+
+#graphs{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+#error{
+    margin: 0 10px auto auto;
+}
+
+#error,#taylor-graph{
+    margin-top: 20px;
+}
