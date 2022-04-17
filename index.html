@@ -27,24 +27,21 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div class="center"><h1 id="head">Taylor Series Visualizer</h1></div>
+    <div class="container">
+      <div class="center"><h1 id="head">Taylor Series Visualizer</h1></div>
 
     <div id="input-wrap">
       <input type="text" id="func_input" placeholder="Function" />
       <input type="text" id="no_of_terms" placeholder="No of terms in series" />
       <input type="text" id="s" placeholder="Point of interest">
-    </div>
-    <div id="button-wrap">
       <button id="calc">Calculate</button>
     </div>
-
-    <div id="result">
       <div id="o-wrap">f(x):  <span id="original"></span></div>
       <div id="t-wrap">Talyor estimated:<span id="taylor"></span></div>
-    </div>
     <div id="graphs">
       <div id="taylor-graph"></div>
       <div id="error"></div>
+    </div>
     </div>
   </body>
 </html>
